@@ -1,6 +1,4 @@
 import { Routes } from '@angular/router';
-import { InscripcionComponent } from './pages/inscripcion/inscripcion.component';
+import { AdminTableComponent } from './admin-table/admin-table.component';
 
-export const routes: Routes = [
-    { path: 'inscripcion', component: InscripcionComponent }
-];
+export const routes: Routes = [];
