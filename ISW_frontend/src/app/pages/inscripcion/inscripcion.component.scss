@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0096c7;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student-info {
+    margin-bottom: 20px;
+}
+
+.student-info p {
+    margin: 5px 0;
+}
+
+.class-list {
+    margin-bottom: 20px;
+}
+
+.class-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.class-list th, .class-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.class-list th {
+    background-color: #0096c7;
+    color: white;
+}
+
+.class-list tr:hover {
+    background-color: #f1f1f1;
+}
+
+.actions {
+    text-align: center;
+}
+
+.actions button {
+    background-color: #0096c7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.actions button:hover {
+    background-color: #0077a3;
+}

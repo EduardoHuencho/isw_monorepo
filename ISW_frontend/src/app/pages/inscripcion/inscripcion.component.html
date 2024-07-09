@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Inscripción de Clases</h1>
+    </div>
+    <div class="container">
+        <div class="student-info">
+            <h2>Información del Alumno</h2>
+            <p><strong>Nombre:</strong> Juan Pérez</p>
+        </div>
+        <div class="class-list">
+            <h2>Clases Disponibles</h2>
+            <table>
+                <tr>
+                    <th>Nombre de la Clase</th>
+                    <th>Profesor</th>
+                    <th>Horario</th>
+                    <th>Inscripcion</th>
+                </tr>
+                <tr>
+                    <td>Matemáticas Avanzadas</td>
+                    <td>Dr. González</td>
+                    <td>Lunes y Miércoles, 10:00 - 11:30</td>
+                    <td>
+                        <div class="actions">
+                            <button>Inscribirse en Clases Seleccionadas</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Historia Mundial</td>
+                    <td>Prof. Martínez</td>
+                    <td>Martes y Jueves, 12:00 - 13:30</td>
+                    <td>
+                        <div class="actions">
+                            <button>Inscribirse en Clases Seleccionadas</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!--
+
+    @for (class of classes; track $index){
+        <tr>
+            <td>{{class.title}}</td>
+            <td>{{class.theme}}</td>
+            <td>{{class.teacherId}}</td>
+        </tr>
+    }
+    
+    -->
+    
+</body>
+</html>
